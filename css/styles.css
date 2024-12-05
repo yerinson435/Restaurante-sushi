@@ -1,0 +1,35 @@
+@import url(/css/root.css);
+@import url(/css/header.css);
+@import url(/css/primer\ anuncio.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+.botones__general{
+    padding: 30px 110px;
+    margin-top: 40px;
+    background-color: var(--color-botones);
+    color: var(--color-texto-blanco);
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+.botones__general:hover{
+    background-color: var(--hover-botones);
+}
+

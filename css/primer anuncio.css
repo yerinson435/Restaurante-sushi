@@ -1,0 +1,36 @@
+@import url(/css/styles.css);
+
+.primer-anuncio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 1000px;
+    background-image: url(/imagenes/primer-anuncio.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 50px;
+    color: var(--color-texto-blanco);
+    overflow: hidden;
+}
+
+.primer-anuncio__contenido{
+    max-width: 100%;
+    padding: 50px;
+    text-align: left;
+}
+
+.primer-anuncio__contenido--titulo{
+    display: flex;
+    font-size: 120px;
+    font-weight: bold;
+    padding-top: 98px;
+    margin-bottom: 20px;
+}
+
+.primer-anuncio__contenido--texto{  
+    width: 50%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 200;
+}
+

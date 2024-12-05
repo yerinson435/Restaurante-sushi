@@ -1,0 +1,83 @@
+@import url(/css/styles.css);
+
+.menu__contenedor{
+    color: var(--color-texto-blanco);
+    background-color: #21243d;
+    min-height: max-content;
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+    height: 950px;
+}
+
+.menu__contenedor--titulo{
+  padding-top: 30px; 
+  font-size: 62px;
+}
+
+.menu__contenedor--texto{
+  padding-top: 50px;
+  width: 660px; 
+  margin: 0 auto; 
+}
+
+.menu__contenedor-imagenes-circulares{
+  display: flex; 
+  justify-content: space-evenly; 
+  padding-top: 70px; 
+}
+
+.menu__item{
+  max-width: 20%; 
+}
+
+.menu__item--imagenes{
+  width: 80%; 
+  border-radius: 10px; 
+}
+
+
+.menu__item--titulo{
+  margin-top: 10px; 
+  font-size: 42px; 
+}
+
+.menu__item--texto{
+  font-size: 18px; 
+}
+
+.menu__contenedor--imagen--puntos-superior-izquierda{
+    position: absolute; 
+    left: 430px; 
+    top: 10px; 
+}
+
+.menu__contenedor--imagen--circulo-superior-derecha{
+    position: absolute;
+    right: 0; 
+    top: 0px; 
+}
+
+.menu__contenedor--imagen--linia-zicza-izquierda{
+  position: absolute;
+  left: 200px;
+  top: 200px; 
+}
+
+.menu__contenedor--imagen--puntos-medio-derecha{
+    position: absolute; 
+    right: 0; 
+    top: 350px; 
+}
+
+.menu__contenedor--imagen--circulo-inferior-izquierda{
+    position: absolute;
+    left: 0; 
+    top: 710px; 
+}
+
+.menu__contenedor--imagen--linea-zicza-derecha{
+    position: absolute; 
+    right: 0; 
+    top: 870px; 
+}

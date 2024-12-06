@@ -1,0 +1,97 @@
+@import url(/css/styles.css);
+
+.suscripcion {
+  width: 100%;
+  height: 1000px;
+  background-color: var(--color-fondo-pedido4);
+  color: var(--color-principal);
+  text-align: center;
+  padding: 40px 0;
+  position: relative;
+}
+
+.suscripcion__titulo {
+  font-size: var(--tamaño-texto-titulo-grande);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.suscripcion__descripcion {
+  font-size: var(--tamaño-texto-descripcion);
+  max-width: 50%;
+  margin: 50px auto 80px auto;
+  color: #555;
+}
+
+.suscripcion__formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--espaciado-pequeño);
+}
+
+.suscripcion__input {
+  padding: 15px 25px;
+  font-size: var(--tamaño-texto-parrafo);
+  border: none;
+  border-radius: var(--radio-borde-entrada);
+  outline: none;
+  width: 700px;
+  color: #bebebe;
+  box-sizing: border-box;
+}
+
+.suscripcion__boton {
+  position: absolute;
+  padding: 15px 30px;
+  font-size: var(--tamaño-texto-parrafo);
+  border: none;
+  border-radius: var(--radio-borde-boton);
+  background-color: #22243e;
+  color: var(--color-texto-claro);
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 600px;
+}
+
+.suscripcion__decoracion {
+  position: absolute;
+}
+
+
+
+.suscripcion__decoracion--circulo-arriba-izq {
+  top: 5%;
+  right: 0;
+  width: 150px;
+}
+
+.suscripcion__decoracion--circulo-abajo-centro {
+  bottom: 15%;
+  left: 50%;
+  width: 200px;
+}
+
+.suscripcion__decoracion--puntos-arriba-der {
+  top: 15%;
+  right: 85%;
+  width: 200px;
+}
+
+.suscripcion__decoracion--puntos-abajo-der {
+  bottom: 20%;
+  right: 15%;
+  width: 100px;
+}
+
+.suscripcion__decoracion--onda-arriba-izq {
+  top: 18%;
+  left: 80%;
+  width: 100px;
+}
+
+.suscripcion__decoracion--onda-abajo-izq {
+  bottom: 25%;
+  left: 20%;
+  width: 100px;
+}

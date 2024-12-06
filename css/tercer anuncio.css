@@ -1,0 +1,89 @@
+@import url(/css/styles.css);
+
+.tercer-anuncio{
+    min-height: max-content;
+    height: 1000px;
+    background-color: #ffd17e;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+}
+
+.tercer-anuncio__contenedor{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+
+.tercer-anuncio__contenido{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  width: 700px;
+  margin-top: 80px;
+  margin-left: 160px;
+}
+
+.tercer-anuncio__imagen--circulo-centro-inferior{
+    position: absolute;
+    bottom: 75px;
+    right: 50%;
+}
+  
+.tercer-anuncio__imagen--linea-zizac-superior-izquierda{
+    position: absolute;
+    top: 180px;
+    left: 340px;
+}
+  
+.tercer-anuncio__imagen--puntos-superior-centro{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+  
+.tercer-anuncio__imagen--circulo-derecha-superior{
+    position: absolute;
+    right: 170px;
+    top: 140px;
+}
+  
+.tercer-anuncio__imagen--puntos-inferior-derecha{
+    position: absolute;
+    bottom: 90px;
+    right: 60px;
+}
+
+
+
+.tercer-anuncio__titulo{
+  font-size: 70px;
+  font-weight: bold;
+  color: #282f3f;
+}
+
+.tercer-anuncio__descripcion{
+  font-size: 34px;
+  margin: 10px 0;
+  color: #333;
+}
+
+
+.tercer-anuncio__contenedor--boton{
+    width: 400px;
+}
+
+
+
+.tercer-anuncio__imagen-circular{
+  padding-right: 120px;
+}
+
+.tercer-anuncio__imagen--circular{
+  display: flex;
+  position: relative;
+  width: 500px;
+  margin-right: 70px;
+}

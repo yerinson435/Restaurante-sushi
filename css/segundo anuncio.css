@@ -7,7 +7,7 @@
     text-align: center;
     padding: 40px 0;
     position: relative;
-    height: 950px;
+    height: 1000px;
 }
 
 .segundo-anuncio__contenedor{
@@ -31,6 +31,7 @@
     margin-right: 20%;
     margin-bottom: 60px;
 }
+
 
 .segundo-anuncio__contenedor--titulo{
     font-size: 70px;
@@ -62,7 +63,7 @@
 .segundo-anuncio__imagen--circulo-inferior-derecha{
     position: absolute;
     right: 0px;
-    top: 730px;
+    top: 700px;
 }
   
 .segundo-anuncio__imagen--puntos-inferior-izquierda{

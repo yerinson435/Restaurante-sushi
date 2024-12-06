@@ -1,5 +1,6 @@
 @import url(/css/styles.css);
 
+/* este me permite manejar el contenido de menu */
 .menu__contenedor{
     color: var(--color-texto-blanco);
     background-color: #21243d;
@@ -10,17 +11,20 @@
     height: 1000px;
 }
 
+/* este me permite darle diseño al menu */
 .menu__contenedor--titulo{
   padding-top: 30px; 
   font-size: 62px;
 }
 
+/* este darle diseño al texto */
 .menu__contenedor--texto{
   padding-top: 50px;
   width: 660px; 
   margin: 0 auto; 
 }
 
+/* con este puede acomodar las imagenes */
 .menu__contenedor-imagenes-circulares{
   display: flex; 
   justify-content: space-evenly; 

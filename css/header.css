@@ -1,6 +1,7 @@
 @import url(/css/styles.css);
 
-.header{
+/* este es el header este me permite modificar el contenido dentro del header */
+.header{ 
     display: flex;
     width: 100%;
     height: 85px;
@@ -9,29 +10,30 @@
     justify-content: space-around;
 }
 
+/* este es el menu de navegacion de la pagina */
 .header__navegador{
     display: flex;
 }
-
+/* este es me nue el cual me permite modificar las letras y cosas que le meta al menu */
 .header__menu{
     display: flex;
     gap: 80px;
     list-style-type: none;
 }
-
+/* este es el diseño del menu osea que puedo cambiar le tipo de ltras etc.. */
 .header__menu--item{
     display: flex;
     height: 65px;
     align-items: center;
     justify-content: center;
 }
-
+/* estas son las modificaciones */
 .header__menu--navegador{
     color: var(--color-texto-blanco);
     font-size: 20px;
     text-decoration: none;
 }
-
+/* este es el diseño del icono */
 .header__search--icon{
     display: flex;
     align-items: center;

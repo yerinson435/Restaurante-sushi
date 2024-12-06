@@ -1,5 +1,6 @@
 @import url(/css/styles.css);
 
+/* este es el contendor del primer auncio q me permite hacer lo que esta dentro de el*/
 .primer-anuncio{
     display: flex;
     align-items: center;
@@ -13,12 +14,14 @@
     overflow: hidden;
 }
 
+/* este es lo que contiene el tamaño de la imagen */
 .primer-anuncio__contenido{
     max-width: 100%;
     padding: 50px;
     text-align: left;
 }
 
+/* este es el que me permite mover el texto y darle estilo */
 .primer-anuncio__contenido--titulo{
     display: flex;
     font-size: 120px;
@@ -27,6 +30,7 @@
     margin-bottom: 20px;
 }
 
+/* y este me permite dasrte tamaño y darle estilo al texto */
 .primer-anuncio__contenido--texto{  
     width: 50%;
     margin-bottom: 20px;

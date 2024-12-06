@@ -2,7 +2,7 @@
 
 /* encabezado preincipal */
 
-@media (width > 900px){
+@media (width > 10000px){
     .header__menu{
         display: none; 
     }
@@ -85,9 +85,8 @@
 }
 
 
-
-/* segungo anuncio */
-/* @media (width > 990){
+/* segungo anuncio */ 
+@media (width > 990){
     .segundo-anuncio__contenedor{
         flex-direction: column;
         height: 100vh;
@@ -100,14 +99,14 @@
         margin-left: 20%;
         margin: 0 auto;
     }
-} */
+}
 
 
 /* primer anuncio */
-/* @media (width < 1200px){
+@media (width < 1200px){
     .primer-anuncio{
         display: flex;
-        flex-direction: column;
+        
     }
     .primer-anuncio__contenido{
         margin-left: 25%;
@@ -140,14 +139,14 @@
         margin: 0 auto;
         padding-top: 15px;
     }
-} */
+}
 
 /* estadisticas */
-/* 
+
 @media (width > 1300px){
     .estadisticas__contenedos{
         display: flex;
         flex-direction: column;
         height: 160vh; 
     }
-} */
+}

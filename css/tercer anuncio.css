@@ -3,8 +3,8 @@
 .tercer-anuncio{
     min-height: max-content;
     height: 1000px;
-    background-color: #ffd17e;
-    color: #ffffff;
+    background-color: var(--color-fondo-segundo-anuncio);
+    color: var(--color-texto-blanco);
     text-align: center;
     padding: 40px 0;
     position: relative;

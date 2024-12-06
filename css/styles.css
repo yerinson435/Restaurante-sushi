@@ -1,16 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url(/css/root.css);
-@import url(/css/header.css);
-@import url(/css/primer\ anuncio.css);
-@import url(/css/menu.css);
-@import url(/css/segundo\ anuncio.css);
-@import url(/css/estadisticas.css);
-@import url(/css/tercer\ anuncio.css);
-@import url(/css/comentario.css);
-@import url(/css/suscripcion.css);
-@import url(/css/footer.css);
-@import url(media_querys.css);
+@import url(../css/root.css);
+@import url(../css/header.css);
+@import url(../css/primer\ anuncio.css);
+@import url(../css/menu.css);
+@import url(../css/segundo\ anuncio.css);
+@import url(../css/estadisticas.css);
+@import url(../css/tercer\ anuncio.css);
+@import url(../css/comentario.css);
+@import url(../css/suscripcion.css);
+@import url(../css/footer.css);
+@import url(../media_querys.css);
 
 *{
     padding: 0;

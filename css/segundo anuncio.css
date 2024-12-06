@@ -1,0 +1,79 @@
+@import url(styles.css);
+
+.segundo-anuncio{
+    min-height: max-content;
+    background-color: var(--color-fondo-segundo-anuncio);
+    color: var(--color-texto-blanco);
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+    height: 950px;
+}
+
+.segundo-anuncio__contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.segundo-anuncio-circular{
+    display: flex;
+    position: relative;
+    margin-top: 180px;
+    margin-left: 150px;
+}
+
+.segundo-anuncio__contenedor--contenido{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 500px;
+    margin-right: 20%;
+    margin-bottom: 60px;
+}
+
+.segundo-anuncio__contenedor--titulo{
+    font-size: 70px;
+    font-weight: bold;
+    color: var(--color-texto-segundo-anuncio);
+}
+
+.segundo-anuncio__contenedor--descripcion{
+    font-size: 34px;
+    margin: 10px 0;
+    color: var(--color-texto-segundo-anuncio);
+}
+
+.segundo-anuncio__contenedor--boton{
+    width: 370px;
+}
+
+.segundo-anuncio__imagen--puntos-superior-derecha{
+    position: absolute;
+    right: 30px;
+}
+  
+.segundo-anuncio__imagen--linea-zicza-centro{
+    position: absolute;
+    top: 140px;
+    right: 750px;
+}
+  
+.segundo-anuncio__imagen--circulo-inferior-derecha{
+    position: absolute;
+    right: 0px;
+    top: 730px;
+}
+  
+.segundo-anuncio__imagen--puntos-inferior-izquierda{
+    position: absolute;
+    left: 30px;
+    top: 760px;
+}
+  
+.segundo-anuncio__imagen--circulo-izquierdo{
+    position: absolute;
+    left: 100px;
+    top: 160px;
+}
+

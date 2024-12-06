@@ -1,0 +1,43 @@
+@import url(/css/styles.css);
+
+.comentario{
+    height: 1000px; 
+    background-image: url(/Imagen/comentario/Fondo.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: var(--color-texto-claro); 
+    text-align: center; 
+    padding: 40px 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+  
+  .comentario__detalle{
+    max-width: 900px; 
+    text-align: center; 
+    padding: 40px; 
+    border-radius: 15px;
+}
+  
+.comentario__imagen--perfil{
+    width: 300px; 
+    height: 300px;
+    margin-bottom: 20px; 
+    border-radius: 50%; 
+}
+  
+.comentario__texto{
+    font-size: 2rem; 
+    font-weight: 300; 
+    margin-bottom: 15px; 
+    color: var(--color-texto-blanco);
+}
+  
+.comentario__nombre{
+    font-size: 2rem; 
+    font-weight: 700; 
+    color: var(--color-texto-blanco); 
+}
+  

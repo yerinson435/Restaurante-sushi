@@ -1,40 +1,40 @@
 @import url(/css/styles.css);
 
-.suscripcion {
+.suscripcion{
   width: 100%;
   height: 1000px;
-  background-color: var(--color-fondo-pedido4);
-  color: var(--color-principal);
+  background-color: var(--color-fondo-segundo-anuncio);
+  color: var(--color-texto-segundo-anuncio);
   text-align: center;
   padding: 40px 0;
   position: relative;
 }
 
 .suscripcion__titulo {
-  font-size: var(--tamaño-texto-titulo-grande);
+  font-size: 6rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .suscripcion__descripcion {
-  font-size: var(--tamaño-texto-descripcion);
+  font-size: 3rem;
   max-width: 50%;
   margin: 50px auto 80px auto;
-  color: #555;
+  color: var(--color-letra-suscripciones);
 }
 
 .suscripcion__formulario {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: var(--espaciado-pequeño);
+  margin-top: 20px;
 }
 
 .suscripcion__input {
   padding: 15px 25px;
-  font-size: var(--tamaño-texto-parrafo);
+  font-size: 1.2rem;
   border: none;
-  border-radius: var(--radio-borde-entrada);
+  border-radius: 30px 0 0 30px;
   outline: none;
   width: 700px;
   color: #bebebe;
@@ -44,11 +44,11 @@
 .suscripcion__boton {
   position: absolute;
   padding: 15px 30px;
-  font-size: var(--tamaño-texto-parrafo);
+  font-size: 1.2rem;
   border: none;
-  border-radius: var(--radio-borde-boton);
+  border-radius: 30px;
   background-color: #22243e;
-  color: var(--color-texto-claro);
+  color: var( --color-texto-blanco);
   font-weight: bold;
   cursor: pointer;
   margin-left: 600px;

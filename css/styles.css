@@ -9,6 +9,8 @@
 @import url(/css/tercer\ anuncio.css);
 @import url(/css/comentario.css);
 @import url(/css/suscripcion.css);
+@import url(/css/footer.css);
+@import url(media_querys.css);
 
 *{
     padding: 0;
